@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import japanize_matplotlib
 
 # ① ページ設定
 st.set_page_config(page_title="在庫管理", layout="wide")
