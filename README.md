@@ -19,3 +19,35 @@ Pythonで分析・可視化を行う在庫管理システムです。
 
 ## 画面イメージ
 ![stock](stock.png)
+
+## システム構成図
+```text
++------------------+
+| COBOL Batch      |
+| update_stock.cob |
++------------------+
+          |
+          v
++------------------+
+| master_new.dat   |
+| Inventory Data   |
++------------------+
+          |
+          v
++------------------+
+| Python Analysis  |
+| pandas/matplotlib|
++------------------+
+          |
+          v
++------------------+
+| Streamlit UI     |
+| Dashboard        |
++------------------+
+          |
+          v
++------------------+
+| Browser          |
+| Web Application  |
++------------------+
+```
