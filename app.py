@@ -59,7 +59,7 @@ st.dataframe(filtered)
 st.subheader("在庫グラフ")
 fig, ax = plt.subplots(figsize=(8,4))
 ax.bar(df["name"], df["stock"])
-ax.set_title("在庫状況")
+ax.set_title("Stock Status")
 st.pyplot(fig)
 
 # ④ CSVダウンロード
